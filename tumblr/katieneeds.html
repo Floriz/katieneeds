@@ -162,7 +162,7 @@
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	
 	<!-- External CSS -->
-  <link rel="stylesheet" href="http://static.tumblr.com/caiksrc/cMtmg5crd/baking_blogger_2.css">
+  <link rel="stylesheet" href="https://rawgithub.com/Floriz/katieneeds/master/tumblr/katieneeds.css">
 
 	<!-- CSS with Tumblr Codes -->
 	<style type="text/css" media="screen">
@@ -450,16 +450,6 @@
 			{block:Posts}
 				<article id="{PostID}" class="post type-{PostType} {block:Photoset}type-photoset{/block:Photoset}  clearfix" data-permalink="{permalink}" data-postid="{PostID}">
 					
-					<aside>
-						{block:IfEnableGroupBlogging}<a href="{PostAuthorURL}" title="{PostAuthorTitle} by {PostAuthorName}" class="post-group-member"><img src="{PostAuthorPortraitURL-24}" alt="{PostAuthorTitle} by {PostAuthorName}"></a>{/block:IfEnableGroupBlogging}
-						<a href="{Permalink}" class="post-icon {block:IfEnableGroupBlogging}group-blog{/block:IfEnableGroupBlogging}"></a>
-						{block:IfEnablePostTitlesInSidebar}{block:Title}<h1 class="post-title"><a href="{Permalink}">{Title}</a></h1>{/block:Title}{/block:IfEnablePostTitlesInSidebar}
-						{block:Date}
-							<h2>published</h2>
-							<a href="{Permalink}" class="date">{TimeAgo}</a>
-							<a href="{Permalink}" class="permalink-glyph" title="{lang:Permalink}">&#8734;</a>
-						{/block:Date}
-					</aside>
 						
 					<div class="post-body">
 						
@@ -681,8 +671,12 @@
 								<li class="share ir" data-postid="{PostID}"><span class="share-glyph"></span></li>
 							</ul>
 						</footer>
+
+							<p>Posted</p><a href="{Permalink}" class="date"> {TimeAgo}</a><a href="{Permalink}" class="permalink-glyph" title="{lang:Permalink}">&#8734;</a>
+
 						{/block:Date}
-					
+
+
 						{block:HasTags} 
 						<ul class="tags">
 							{block:Tags} 
@@ -763,6 +757,7 @@
 						
 					{/block:PermalinkPage}
 					
+
 				
 					
 				</article>

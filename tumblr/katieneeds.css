@@ -854,7 +854,7 @@ header #main-nav li#header-search.active,header #main-nav li#header-search.activ
 }
 .post .post-body,.post footer,.post .tags
 {
-	float: right;
+	float: left;
 	width: 600px;
 }
 .post figcaption
@@ -3106,7 +3106,7 @@ a.dsq-cancel:hover
 	}
 	#footer-about
 	{
-		width: 700px;
+		width: 600px;
 	}
 	#footer-avatar
 	{
@@ -3114,7 +3114,7 @@ a.dsq-cancel:hover
 	}
 	#footer-description
 	{
-		width: 500px;
+		width: 600px;
 	}
 	#sidebar
 	{
@@ -3122,19 +3122,19 @@ a.dsq-cancel:hover
 	}
 	.post .post-body,.post footer,.post .tags,#notes-wrapper .notes,a.pxu-load-more-notes,a.pxu-loading-notes,#comments-wrapper,.tweet,#notes-meta,.photo-slideshow,.type-photo figure
 	{
-		width: 500px;
+		width: 600px;
 	}
 	.type-photo img
 	{
-		max-width: 500px;
+		max-width: 600px;
 	}
 	#page-wrap,#footer-wrap,#pagination-wrap
 	{
-		width: 990px;
+		width: 890px;
 	}
 	.post,#notes-wrapper,#content
 	{
-		width: 700px;
+		width: 600px;
 	}
 	.post figcaption,.type-text figure
 	{
